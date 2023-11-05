@@ -6,8 +6,11 @@ namespace CS_cwiczenia1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World " +
-                "   ");
+            DateTime dzisiejszaData = DateTime.Now;
+            Console.WriteLine(dzisiejszaData);
         }
     }
+    
 }
+
+
